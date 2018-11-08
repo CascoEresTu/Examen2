@@ -94,7 +94,6 @@ export default class AmigosScreen extends React.Component {
       this.setUser(user);
     }
 
-    //apiUrl = `https://us-central1-examen-2-jc.cloudfunctions.net/getPosts?privacy=followers&uid=${user.uid}`;
     apiUrl = 'https://us-central1-examenux-ee1d5.cloudfunctions.net/getPosts?privacy=2&uid=${user.uid}' ;
 
     // posts
